@@ -21,7 +21,7 @@ fn get_similarity_score(col1: &[i32], col2: &[i32]) -> i32 {
 }
 
 fn main() {
-    let input = BufReader::new(File::open("examples/day01/input.txt").unwrap());
+    let input = BufReader::new(File::open("inputs/day01.txt").unwrap());
     let (mut left_col, mut right_col) = (Vec::new(), Vec::new());
     
     for buf in input.lines() {

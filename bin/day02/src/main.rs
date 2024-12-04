@@ -51,7 +51,7 @@ fn get_dampened_safe_reports(reports: &[Vec<i32>]) -> usize {
 }
 
 fn main() {
-    let input = BufReader::new(File::open("examples/day02/input.txt").unwrap());
+    let input = BufReader::new(File::open("inputs/day02.txt").unwrap());
     let reports: Vec<Vec<i32>> = input.lines()
         .map(|buf| {
             buf.unwrap()
