@@ -1,5 +1,7 @@
 [workspace]
 members = [
     "bin/day01",
-    "bin/day02"
+    "bin/day02",
+    "bin/day03",
+    "bin/day04"
 ]
